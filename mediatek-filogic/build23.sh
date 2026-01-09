@@ -53,16 +53,23 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 # 定义所需安装的包列表 下列插件你都可以自行删减
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
+# 防火墙
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
+# argon主题
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+# 
 # PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+# 
 # PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
 
 #23.05
+# 软件包
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
+# web终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
+# openclash
 PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
