@@ -54,11 +54,11 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-# PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
-# PACKAGES="$PACKAGES luci-theme-argon"
-# PACKAGES="$PACKAGES luci-app-argon-config"
-# PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+PACKAGES="$PACKAGES luci-theme-argon"
+PACKAGES="$PACKAGES luci-app-argon-config"
+PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
 
 #23.05
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
@@ -69,9 +69,9 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 增加几个必备组件 方便用户安装iStore
-PACKAGES="$PACKAGES fdisk"
-PACKAGES="$PACKAGES script-utils"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+# PACKAGES="$PACKAGES fdisk"
+# PACKAGES="$PACKAGES script-utils"
+# PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 解锁网易云灰色歌曲(推荐)
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
