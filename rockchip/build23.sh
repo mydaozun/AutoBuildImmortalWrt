@@ -64,6 +64,20 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 # 代理工具
 PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
+
+# 解锁网易云灰色歌曲(推荐)
+PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
+# iStore首页和网络向导(推荐)
+# PACKAGES="$PACKAGES luci-app-quickstart"
+# iStore首页和网络向导
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# 高级卸载 by YT Vedio Talk
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# 应用过滤 openappfilter.com
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+# Bandix流量监控 by timsaya
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
+
 # 判断是否需要编译 Docker 插件
 if [ "$INCLUDE_DOCKER" = "yes" ]; then
     PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn"
