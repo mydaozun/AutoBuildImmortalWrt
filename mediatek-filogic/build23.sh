@@ -70,6 +70,20 @@ PACKAGES="$PACKAGES openssh-sftp-server"
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+
+# 解锁网易云灰色歌曲(推荐)
+PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
+# iStore首页和网络向导(推荐)
+# PACKAGES="$PACKAGES luci-app-quickstart"
+# iStore首页和网络向导
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# 高级卸载 by YT Vedio Talk
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# 应用过滤 openappfilter.com
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+# Bandix流量监控 by timsaya
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
+
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
