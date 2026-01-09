@@ -69,9 +69,9 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 增加几个必备组件 方便用户安装iStore
-PACKAGES="$PACKAGES fdisk"
-PACKAGES="$PACKAGES script-utils"
-PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+# PACKAGES="$PACKAGES fdisk"
+# PACKAGES="$PACKAGES script-utils"
+# PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 解锁网易云灰色歌曲(推荐)
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
@@ -83,7 +83,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # iStore首页和网络向导
 # PACKAGES="$PACKAGES luci-app-quickstart"
 # 应用过滤 openappfilter.com
-# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # Bandix流量监控 by timsaya
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
 
