@@ -59,7 +59,13 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
-# 
+# Luci主题
+PACKAGES="$PACKAGES luci-theme-bootstrap-mod"
+PACKAGES="$PACKAGES luci-theme-bootstrap_git"
+PACKAGES="$PACKAGES luci-theme-material_git"
+PACKAGES="$PACKAGES luci-theme-openwrt-2020_git"
+PACKAGES="$PACKAGES luci-theme-openwrt_git"
+
 # PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 # 
 # PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
