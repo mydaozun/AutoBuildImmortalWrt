@@ -96,12 +96,10 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # 解锁网易云灰色歌曲(推荐)
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 # iStore首页和网络向导(推荐)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quickstart"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quickstart"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk(推荐)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
-
-# 监控
 
 # 应用过滤 openappfilter.com
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
