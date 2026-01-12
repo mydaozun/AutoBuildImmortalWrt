@@ -59,6 +59,10 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+# 极光主题 0.9
+PACKAGES="$PACKAGES luci-theme-aurora"
+# 酷猫主题
+PACKAGES="$PACKAGES luci-theme-kucat"
 # Luci主题
 # PACKAGES="$PACKAGES luci-theme-bootstrap-mod"
 # PACKAGES="$PACKAGES luci-theme-bootstrap"
@@ -75,8 +79,11 @@ PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 # web终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-# openclash
+# 代理工具
 PACKAGES="$PACKAGES luci-app-openclash"
+# PACKAGES="$PACKAGES luci-app-nikki"
+# PACKAGES="$PACKAGES luci-app-momo"
+# PACKAGES="$PACKAGES luci-app-nekobox"
 # PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # PACKAGES="$PACKAGES openssh-sftp-server"
@@ -99,6 +106,9 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # Bandix流量监控 by timsaya
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
+
+
+
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
