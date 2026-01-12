@@ -59,6 +59,7 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+
 # 酷猫主题
 # PACKAGES="$PACKAGES luci-theme-kucat"
 # 极光主题 0.9
@@ -81,17 +82,17 @@ PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # 代理工具
 PACKAGES="$PACKAGES luci-app-openclash"
-# PACKAGES="$PACKAGES luci-app-nikki"
-# PACKAGES="$PACKAGES luci-app-momo"
-# PACKAGES="$PACKAGES luci-app-nekobox"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES momo luci-app-momo luci-i18n-momo-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nekobox"
 # PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 增加几个必备组件 方便用户安装iStore
-# PACKAGES="$PACKAGES fdisk"
-# PACKAGES="$PACKAGES script-utils"
-# PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES fdisk"
+PACKAGES="$PACKAGES script-utils"
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 解锁网易云灰色歌曲(推荐)
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
@@ -99,12 +100,12 @@ PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quickstart"
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk(推荐)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 
 # 应用过滤 openappfilter.com
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 # Bandix流量监控 by timsaya
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
 
 
 
