@@ -60,7 +60,7 @@ PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 # 酷猫主题
-PACKAGES="$PACKAGES luci-theme-kucat"
+# PACKAGES="$PACKAGES luci-theme-kucat"
 # 极光主题 0.9
 # PACKAGES="$PACKAGES luci-theme-aurora"
 # Luci主题
