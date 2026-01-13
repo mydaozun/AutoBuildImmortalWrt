@@ -54,19 +54,24 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
+# 文件网盘管理
+# PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
+# argon主题三件套
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+# 磁盘管理
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #23.05
+# 软件包
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
+# web ssh
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 #PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-#PACKAGES="$PACKAGES openssh-sftp-server"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+# PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
