@@ -57,8 +57,8 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
 
 PACKAGES="$PACKAGES luci-theme-argon"
-PACKAGES="$PACKAGES luci-app-argon-config"
-PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+# PACKAGES="$PACKAGES luci-app-argon-config"
+# PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 
 # PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #23.05
@@ -70,7 +70,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 # 首页和网络向导
 # PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk
 # PACKAGES="$PACKAGES luci-app-uninstall"
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
