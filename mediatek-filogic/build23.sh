@@ -53,24 +53,29 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 # 定义所需安装的包列表 下列插件你都可以自行删减
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
+# 防火墙
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-# 文件网盘管理
+
 # PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
-# argon主题三件套
-PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
+# argon主题
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
-# 磁盘管理
+# 进阶设置 by sirpdboy 
+# 当luci-app-advancedplus插件开启时 需排除冲突项 luci-app-argon-config和luci-i18n-argon-config-zh-cn 减号代表排除
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
+
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #23.05
 # 软件包
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
-# web ssh
+# web终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-#PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# openclash
+# PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES momo luci-app-momo luci-i18n-momo-zh-cn"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 
@@ -79,6 +84,18 @@ PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
+# 解锁网易云灰色歌曲(推荐)
+PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
+# iStore首页和网络向导(推荐)
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# 高级卸载 by YT Vedio Talk(推荐)
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# iStore首页和网络向导
+PACKAGES="$PACKAGES luci-app-quickstart"
+# 应用过滤 openappfilter.com
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
+
+ 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
