@@ -69,14 +69,14 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 # 首页和网络向导
-PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk
-PACKAGES="$PACKAGES luci-app-uninstall"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# PACKAGES="$PACKAGES luci-app-uninstall"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 进阶设置 by sirpdboy 
-PACKAGES="$PACKAGES luci-i18n-advancedplus-zh-cn"
-#CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-advancedplus-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn"
 
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
