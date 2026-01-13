@@ -57,6 +57,7 @@ PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # 文件网盘管理
 # PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
 # argon主题三件套
+PACKAGES="$PACKAGES luci-theme-unblockneteasemusic"
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
