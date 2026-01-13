@@ -15,7 +15,7 @@
 # xiaomi_redmi-router-ax6000-stock ————原厂默认 bootloader（stock）版本
 # xiaomi_redmi-router-ax6000-ubootmod—————改装过 bootloader 的版本（ubootmod）
 
-name: Build Wireless Router ImmortalWrt 24.10.x.davv
+name: Build Wireless Router ImmortalWrt 24.10.x
 
 on:
   workflow_dispatch:
@@ -25,10 +25,18 @@ on:
         description: "请选择mtk路由器型号"
         required: true
         options:
+
           # 京东云AX6000百里
+
           - xiaomi_redmi-router-ax6000
           - xiaomi_redmi-router-ax6000-stock
           - xiaomi_redmi-router-ax6000-ubootmod
+
+          - xiaomi_ax3600
+          - xiaomi_ax3600-stock
+          - xiaomi_ax9000
+          - xiaomi_ax9000-stock
+
         default: xiaomi_redmi-router-ax6000-stock
       custom_router_ip:
         description: "请设置路由器的管理地址 格式:192.168.x.1 或 10.x.x.1"
