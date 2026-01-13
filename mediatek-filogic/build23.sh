@@ -75,13 +75,13 @@ PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
 PACKAGES="$PACKAGES luci-app-uninstall"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 进阶设置 by sirpdboy 
-#PACKAGES="$PACKAGES luci-i18n-advancedplus-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-advancedplus-zh-cn"
 #CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn"
 
 # 增加几个必备组件 方便用户安装iStore
-# PACKAGES="$PACKAGES fdisk"
-# PACKAGES="$PACKAGES script-utils"
-# PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES fdisk"
+PACKAGES="$PACKAGES script-utils"
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
