@@ -69,7 +69,7 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 # 首页和网络向导
-PACKAGES="$PACKAGES luci-i18n-quickstart-zh-cn"
+PACKAGES="$PACKAGES luci-app-quickstart luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk
 PACKAGES="$PACKAGES luci-app-uninstall"
 # 进阶设置 by sirpdboy 
