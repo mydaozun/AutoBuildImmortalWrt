@@ -57,8 +57,8 @@ PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
 # argon主题
 PACKAGES="$PACKAGES luci-theme-argon"
-#PACKAGES="$PACKAGES luci-app-argon-config"
-#PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+PACKAGES="$PACKAGES luci-app-argon-config"
+PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
 
 
 # PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
@@ -80,19 +80,19 @@ PACKAGES="$PACKAGES luci-app-openclash"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 
 # 增加几个必备组件 方便用户安装iStore
-#PACKAGES="$PACKAGES fdisk"
-#PACKAGES="$PACKAGES script-utils"
-#PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+PACKAGES="$PACKAGES fdisk"
+PACKAGES="$PACKAGES script-utils"
+PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 
 # 解锁网易云灰色歌曲(推荐)
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 # 高级卸载 by YT Vedio Talk(推荐)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 首页和网络向导
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 进阶设置 by sirpdboy 
 # 当luci-app-advancedplus插件开启时 需排除冲突项 luci-app-argon-config和luci-i18n-argon-config-zh-cn 减号代表排除
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn -luci-app-argon-config -luci-i18n-argon-config-zh-cn"
 
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
