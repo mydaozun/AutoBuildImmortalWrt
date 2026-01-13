@@ -64,6 +64,7 @@ PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 #PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-nikki-zh-cn"
 #PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 #PACKAGES="$PACKAGES openssh-sftp-server"
 
