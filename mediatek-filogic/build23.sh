@@ -75,8 +75,9 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # openclash
 # PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nikki luci-i18n-nikki-zh-cn"
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES momo luci-app-momo luci-i18n-momo-zh-cn"
+PACKAGES="$PACKAGES luci-app-nikki luci-i18n-nikki-zh-cn"
+PACKAGES="$PACKAGES luci-app-momo luci-i18n-momo-zh-cn"
+
 # PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
 # PACKAGES="$PACKAGES openssh-sftp-server"
 
@@ -88,9 +89,9 @@ PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
 # 解锁网易云灰色歌曲(推荐)
 PACKAGES="$PACKAGES luci-app-unblockneteasemusic"
 # iStore首页和网络向导
-PACKAGES="$PACKAGES luci-app-quickstart"
+PACKAGES="$PACKAGES luci-app-quickstart luci-i18n-quickstart-zh-cn"
 # iStore首页和网络向导(推荐)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk(推荐)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 应用过滤 openappfilter.com
