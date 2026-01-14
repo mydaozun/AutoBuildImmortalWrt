@@ -76,7 +76,7 @@ PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 # openclash
 # PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nikki luci-i18n-nikki-zh-cn"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-nikki luci-i18n-nikki-zh-cn"
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-momo luci-i18n-momo-zh-cn"
 
 
