@@ -97,7 +97,7 @@ CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
 # 高级卸载 by YT Vedio Talk(推荐)
 CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
 # 流量监控(推荐)
-CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-bandix luci-i18n-bandix-zh-cn"
 # 应用过滤 openappfilter.com
 # CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-appfilter luci-i18n-appfilter-zh-cn"
 
