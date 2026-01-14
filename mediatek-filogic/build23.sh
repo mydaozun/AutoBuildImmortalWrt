@@ -73,8 +73,8 @@ PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 # web终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-# openclash
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# openclash （passwall太大）
+# PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
 
 # PACKAGES="$PACKAGES openssh-sftp-server"
