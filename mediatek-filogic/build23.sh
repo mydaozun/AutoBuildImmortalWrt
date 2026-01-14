@@ -1,4 +1,5 @@
 #!/bin/bash
+sed -i 's#https://downloads.immortalwrt.org#https://mirrors.pku.edu.cn/immortalwrt#g' repositories.conf
 source shell/custom-packages.sh
 # 该文件实际为imagebuilder容器内的build.sh
 
