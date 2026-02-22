@@ -47,6 +47,18 @@ EOF
 echo "cat pppoe-settings"
 cat /home/build/immortalwrt/files/etc/config/pppoe-settings
 
+# 更换国内源
+OFFICIAL="https://downloads.immortalwrt.org"
+MIRROR="https://mirrors.sjtug.sjtu.edu.cn/immortalwrt"
+echo ">>> official failed, switching to mirror"
+BASE_URL="$MIRROR"
+echo "Using BASE_URL = $BASE_URL"
+echo "========================================"
+echo "Updating repositories.conf"
+echo "========================================"
+sed -i "s#${OFFICIAL}#${BASE_URL}#g" repositories.conf
+cat repositories.conf
+
 # 输出调试信息
 echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 
