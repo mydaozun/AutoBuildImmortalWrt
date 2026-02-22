@@ -1,6 +1,7 @@
 #!/bin/bash
 source shell/custom-packages.sh
 # 该文件实际为imagebuilder容器内的build.sh
+# 红米ax6000使用
 
 if [ -n "$CUSTOM_PACKAGES" ]; then
   echo "✅ 你选择了第三方软件包：$CUSTOM_PACKAGES"
@@ -54,22 +55,35 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') - Starting build process..."
 PACKAGES=""
 PACKAGES="$PACKAGES curl"
 PACKAGES="$PACKAGES luci-i18n-firewall-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-filebrowser-zh-cn"
+
 PACKAGES="$PACKAGES luci-theme-argon"
 PACKAGES="$PACKAGES luci-app-argon-config"
 PACKAGES="$PACKAGES luci-i18n-argon-config-zh-cn"
+
 PACKAGES="$PACKAGES luci-i18n-diskman-zh-cn"
 #23.05
 PACKAGES="$PACKAGES luci-i18n-opkg-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
+# PACKAGES="$PACKAGES luci-i18n-passwall-zh-cn"
 PACKAGES="$PACKAGES luci-app-openclash"
-PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
-PACKAGES="$PACKAGES openssh-sftp-server"
+# PACKAGES="$PACKAGES luci-i18n-homeproxy-zh-cn"
+# PACKAGES="$PACKAGES openssh-sftp-server"
+# 增加几个必备组件 方便用户安装iStore
+# 首页和网络向导
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-quickstart"
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-i18n-quickstart-zh-cn"
+# 高级卸载 by YT Vedio Talk
+CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-uninstall"
+# 进阶设置 by sirpdboy 
+# PACKAGES="$PACKAGES luci-i18n-advancedplus-zh-cn"
+# CUSTOM_PACKAGES="$CUSTOM_PACKAGES luci-app-advancedplus luci-i18n-advancedplus-zh-cn"
+
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
 PACKAGES="$PACKAGES luci-i18n-samba4-zh-cn"
+
 # 第三方软件包 合并
 # ======== shell/custom-packages.sh =======
 PACKAGES="$PACKAGES $CUSTOM_PACKAGES"
